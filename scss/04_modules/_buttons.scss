@@ -1,0 +1,27 @@
+// *
+// _buttons.scss
+// Utilizado para ejemplo en Campus Party.
+// Hoja de estilos de los botones.
+// Desarrollado por la Dirección General Innovación y Gobierno Digital - SEPAF
+// *
+
+.btn {
+  border-radius: 25px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+  padding: .8em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &-primary {
+    background-color: $blue;
+    color: $white;
+  }
+
+  &-secondary {
+    background-color: $white;
+    color: $blue;
+  }
+}
+

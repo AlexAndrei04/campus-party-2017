@@ -1,0 +1,52 @@
+// *
+// _layout.scss
+// Utilizado para ejemplo en Campus Party.
+// Hoja que contiene los estilos de la estructura.
+// Desarrollado por la Dirección General Innovación y Gobierno Digital - SEPAF
+// *
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+}
+
+.navigation {
+  background: linear-gradient(to bottom, rgba($white, 1) 0%, rgba(white, 0) 100%);
+  padding-bottom: 6em;
+  padding-top: 2.5em;
+
+  &__list {
+    float: right;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  &__link {
+    color: $blue;
+    font-size: .8em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &.active {
+      border-bottom: 1px solid $blue;
+      padding-bottom: .5em;
+    }
+  }
+}
+
+.brand {
+  display: inline-block;
+}
+
+

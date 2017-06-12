@@ -1,0 +1,65 @@
+// *
+// _themes.scss
+// Utilizado para ejemplo en Campus Party.
+// Hoja que contiene todas las variables de tamaños, colores y fuentes.
+// Desarrollado por la Dirección General Innovación y Gobierno Digital - SEPAF
+// *
+
+.main {
+  background-color: rgba($white, .5);
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    background-image: url('/images/background-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: ' ';
+    display: block;
+    height: 100vh;
+    position: absolute;
+    transform: scaleX(-1);
+    width: 100%;
+    z-index: -1;
+  }
+}
+ 
+.publicity {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+
+  &__title {
+    color: $blue;
+    font-size: 4.2em;
+    font-weight: bolder;
+    margin-bottom: 0;
+  }
+
+  &__subtitle {
+    color: $blue;
+    font-size: 1.2em;
+    width: 11em;
+  }
+}
+
+.questions {
+  background-color: rgba($white, .5);
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    background-image: url('/images/background-webform.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    content: ' ';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+}
+

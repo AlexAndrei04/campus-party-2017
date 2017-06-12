@@ -1,0 +1,21 @@
+.slider {
+  display: flex;
+  justify-content: space-around;
+
+  &__item {
+    border-radius: 2px;
+    box-shadow: 0 0 1px 1px lighten($black, 50%);
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0;
+  }
+
+  &__title {
+    padding: 1em;
+    text-align: center;
+  }
+
+  &__description {
+    padding: 1em 2em 6em;
+  }
+}

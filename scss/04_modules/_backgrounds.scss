@@ -1,0 +1,18 @@
+// *
+// _backgrounds.scss
+// Utilizado para ejemplo en Campus Party.
+// Hoja que contiene los fondos de colores.
+// Desarrollado por la Dirección General Innovación y Gobierno Digital - SEPAF
+// *
+
+.m-background-gray-light {
+  background-color: lighten($black, 70%);
+}
+
+.m-background-gray-dark {
+  background-color: $black;
+}
+
+.m-background-blue {
+  background-color: $blue;
+}

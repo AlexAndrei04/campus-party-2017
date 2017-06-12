@@ -1,0 +1,47 @@
+// *
+// base.scss
+// Utilizado para ejemplo en Campus Party.
+// Hoja base donde se encuentran los estilos aplicados a etiquetas.
+// Desarrollado por la Dirección General Innovación y Gobierno Digital - SEPAF
+// *
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+
+  &:active {
+    text-decoration: none;
+  }
+}
+
+@each $tag, $heading-size in (h1:2em, h2:1.8em, h3:1.6em, h4:1.4em, h5:1.2em, h6:1em) {
+  #{$tag}, .#{$tag} {
+    font-family: $f-principal;
+    font-size: #{$heading-size};
+    font-style: normal;
+    line-height: 1.5;
+    text-rendering: optimizelegibility;
+  }
+}
+
+input {
+  &[type=email],
+  &[type=text] {
+    background-color: rgba($black, .7);
+    border-radius: 4px;
+    border: 0;
+    color: $white;
+    padding: .7em;
+  }
+}
+
+textarea {
+  background-color: rgba($black, .7);
+  border-radius: 4px;
+  border: 0;
+}
+
+

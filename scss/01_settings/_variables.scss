@@ -1,0 +1,51 @@
+// *
+// _variables.scss
+// Utilizado para ejemplo en Campus Party.
+// Hoja que contiene todas las variables de tamaños, colores y fuentes.
+// Desarrollado por la Dirección General Innovación y Gobierno Digital - SEPAF
+// *
+
+
+// ==========================================================================
+// Colores base
+// ==========================================================================
+
+$color-scheme: (
+  s-blue: #1a58d1,
+  s-black: #3b3d40,
+  s-white: #fff,
+);
+
+$black: map-get($color-scheme, s-black);
+$blue: map-get($color-scheme, s-blue);
+$white: map-get($color-scheme, s-white);
+
+
+// ==========================================================================
+// Fuentes
+// ==========================================================================
+
+$s-font: (
+  primary: ('Raleway', sans-serif),
+  secondary: ('Roboto', sans-serif),
+  size: 16px,
+);
+
+$f-principal: map-get($s-font, primary);
+$f-secondary: map-get($s-font, secondary);
+$f-size: map-get($s-font, size);
+
+// ==========================================================================
+// Tamaños de dispositivos
+// ==========================================================================
+$s-size: (
+  mobile: 300px,
+  tablet: 769px,
+  desktop: 992px,
+  television: 1200,
+);
+
+$mobile: map-get($s-size, mobile);
+$tablet: map-get($s-size, tablet);
+$desktop: map-get($s-size, desktop);
+$television: map-get($s-size, television);

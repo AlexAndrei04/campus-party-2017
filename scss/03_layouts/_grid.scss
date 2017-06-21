@@ -20,6 +20,7 @@ $porcent: '%';
       .l-#{$type}-#{$i} {
         float: left;
         padding: .5em;
+        position: relative;
         width: ($i * $h)#{$porcent};
       }
     }

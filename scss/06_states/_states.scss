@@ -25,6 +25,22 @@
   text-align: right;
 }
 
+.is-block {
+  display: block;
+}
+
+.is-inline-block {
+  display: inline-block;
+}
+
+.is-table {
+  display: table;
+}
+
+.is-clearfix {
+  clear: both;
+}
+
 .is-img-responsive {
   display: block;
   width: 100%;
@@ -90,6 +106,10 @@
 
 .is-padding-bottom-5 {
   padding-bottom: 5em;
+}
+
+.is-not-margin {
+  margin: 0;
 }
 
 .is-margin-top-1 {

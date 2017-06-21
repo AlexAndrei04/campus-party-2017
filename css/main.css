@@ -271,200 +271,248 @@ template {
   .l-mobile-1 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 8.33333%; }
   .l-mobile-2 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 16.66667%; }
   .l-mobile-3 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 25%; }
   .l-mobile-4 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 33.33333%; }
   .l-mobile-5 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 41.66667%; }
   .l-mobile-6 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 50%; }
   .l-mobile-7 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 58.33333%; }
   .l-mobile-8 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 66.66667%; }
   .l-mobile-9 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 75%; }
   .l-mobile-10 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 83.33333%; }
   .l-mobile-11 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 91.66667%; }
   .l-mobile-12 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 100%; } }
 
 @media all and (min-width: 769px) {
   .l-tablet-1 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 8.33333%; }
   .l-tablet-2 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 16.66667%; }
   .l-tablet-3 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 25%; }
   .l-tablet-4 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 33.33333%; }
   .l-tablet-5 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 41.66667%; }
   .l-tablet-6 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 50%; }
   .l-tablet-7 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 58.33333%; }
   .l-tablet-8 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 66.66667%; }
   .l-tablet-9 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 75%; }
   .l-tablet-10 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 83.33333%; }
   .l-tablet-11 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 91.66667%; }
   .l-tablet-12 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 100%; } }
 
 @media all and (min-width: 992px) {
   .l-desktop-1 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 8.33333%; }
   .l-desktop-2 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 16.66667%; }
   .l-desktop-3 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 25%; }
   .l-desktop-4 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 33.33333%; }
   .l-desktop-5 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 41.66667%; }
   .l-desktop-6 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 50%; }
   .l-desktop-7 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 58.33333%; }
   .l-desktop-8 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 66.66667%; }
   .l-desktop-9 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 75%; }
   .l-desktop-10 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 83.33333%; }
   .l-desktop-11 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 91.66667%; }
   .l-desktop-12 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 100%; } }
 
 @media all and (min-width: 1200) {
   .l-television-1 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 8.33333%; }
   .l-television-2 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 16.66667%; }
   .l-television-3 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 25%; }
   .l-television-4 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 33.33333%; }
   .l-television-5 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 41.66667%; }
   .l-television-6 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 50%; }
   .l-television-7 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 58.33333%; }
   .l-television-8 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 66.66667%; }
   .l-television-9 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 75%; }
   .l-television-10 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 83.33333%; }
   .l-television-11 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 91.66667%; }
   .l-television-12 {
     float: left;
     padding: .5em;
+    position: relative;
     width: 100%; } }
 
 .container {
@@ -502,6 +550,20 @@ template {
 
 .brand {
   display: inline-block; }
+
+.footer__row {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .m-background-gray-light {
   background-color: #eff0f1; }
@@ -592,21 +654,29 @@ template {
     width: 11em; }
 
 .questions {
-  background-color: rgba(255, 255, 255, 0.5);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.3)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.8) 100%, rgba(255, 255, 255, 0.3) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.8) 100%, rgba(255, 255, 255, 0.3) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 100%, rgba(255, 255, 255, 0.3) 100%);
   overflow: hidden;
   position: relative; }
   .questions::before {
     background-image: url("/images/background-webform.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     content: ' ';
     display: block;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     height: 100%;
     position: absolute;
     width: 100%;
     z-index: -1; }
+
+.app__icon {
+  margin-right: 2.5em;
+  margin-top: 2em;
+  width: 8em; }
 
 .is-mayus {
   text-transform: uppercase; }
@@ -622,6 +692,18 @@ template {
 
 .is-text-right {
   text-align: right; }
+
+.is-block {
+  display: block; }
+
+.is-inline-block {
+  display: inline-block; }
+
+.is-table {
+  display: table; }
+
+.is-clearfix {
+  clear: both; }
 
 .is-img-responsive {
   display: block;
@@ -675,6 +757,9 @@ template {
 
 .is-padding-bottom-5 {
   padding-bottom: 5em; }
+
+.is-not-margin {
+  margin: 0; }
 
 .is-margin-top-1 {
   margin-top: 1em; }

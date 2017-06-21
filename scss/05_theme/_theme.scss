@@ -23,7 +23,7 @@
     z-index: -1;
   }
 }
- 
+
 .publicity {
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@
 }
 
 .questions {
-  background-color: rgba($white, .5);
+  background: linear-gradient(to bottom, rgba($white, .8) 100%, rgba($white, .3) 100%);
   overflow: hidden;
   position: relative;
 
@@ -53,9 +53,9 @@
     background-image: url('/images/background-webform.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(100%);
     content: ' ';
     display: block;
+    filter: grayscale(100%);
     height: 100%;
     position: absolute;
     width: 100%;
@@ -63,3 +63,10 @@
   }
 }
 
+.app {
+  &__icon {
+    margin-right: 2.5em;
+    margin-top: 2em;
+    width: 8em;
+  }
+}

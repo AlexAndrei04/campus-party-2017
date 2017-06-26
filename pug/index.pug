@@ -28,43 +28,52 @@ body
     .container.publicity
       img( src = '' alt = '' ).logo
       h2.is-mayus.publicity__title Si, ¡si hay agua!
-      img( src = '' alt = '' ).player
+      .publicity__play
+        a( href = '' )
+          img( src = 'images/play_icon.svg' alt = '' )
       h6.publicity__subtitle Ve este video para que nunca te falte agua
   
-  //- Sección de Agua siempre cerca
+  //- Sección de Agua siempre cerca -- Objetivos
   section.benefits.is-padding-top-3.is-padding-bottom-5
     .container
       h2.is-text-center.subtitle-site Agua siempre cerca
       h6.is-text-center Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     
-      .benefits__block
-        img( src = '' alt = '' ).benefits__image
-        h6.is.mayus Haz tu pedido desde tu smartphone
-        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laboriosam, ullam iusto illum voluptas corporis!
-      .benefits__block.is-text-right
-        img( src = '' alt = '' ).benefits__image
-        h6.is.mayus Haz tu pedido desde tu smartphone
-        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laboriosam, ullam iusto illum voluptas corporis!
-      .benefits__block
-        img( src = '' alt = '' ).benefits__image
-        h6.is.mayus Haz tu pedido desde tu smartphone
-        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laboriosam, ullam iusto illum voluptas corporis!
+      .benefits__block.row.is-margin-bottom-2
+        .l-desktop-2
+          img( src = 'images/smartphone_icon.svg' alt = '' ).benefits__image
+        .l-desktop-10
+          h6.is.mayus Haz tu pedido desde tu smartphone
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laboriosam, ullam iusto illum voluptas corporis!
+      .benefits__block.row.is-text-right.is-margin-bottom-2
+        .l-desktop-10
+          h6.is.mayus Haz tu pedido desde tu smartphone
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laboriosam, ullam iusto illum voluptas corporis!
+        .l-desktop-2
+          img( src = 'images/lista_icon.svg' alt = '' ).benefits__image
+      .benefits__block.row.is-margin-bottom-2
+        .l-desktop-2
+          img( src = 'images/garafon_icon.svg' alt = '' ).benefits__image
+        .l-desktop-10
+          h6.is.mayus Haz tu pedido desde tu smartphone
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laboriosam, ullam iusto illum voluptas corporis!
       
       .is-text-center.is-margin-top-5
-        a.btn.btn-primary Quiero saber más
+        a( href = '' ).btn.btn-primary Quiero saber más
   
-  //- Sección de levantar el pedido
+  //- Sección de levantar el pedido / Garrafón
   section.order.m-background-blue.is-padding-top-3.is-padding-bottom-5
     .container
       .row
-        .order__image.l-television-5.l-desktop-4
+        .order__image.l-television-5.l-desktop-3
           img( src = 'images/garrafon-azul.png' alt = '' ).is-img-responsive
-        .order__description.l-television-5.l-desktop-8.is-padding-top-5
+        .order__description.l-television-5.l-desktop-9.is-padding-top-5.is-padding-left-5
           h2.subtitle-site-contrast Garrafón de 20 lts.
           p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere eaque commodi, officiis a, quis rerum?
           .is-margin-top-4
             a( href = '' ).btn.btn-secondary Levantar pedido
 
+  //- Sección de zonas de reparto
   section.repart.is-padding-top-3.is-padding-bottom-3
     .container
       .is-text-center.is-margin-bottom-3
@@ -108,6 +117,7 @@ body
     .is-text-center.is-margin-top-4.is-margin-bottom-2
       a( href = '' ).btn.btn-primary Ver todas las zonas
 
+  //- Sección de la Aplicación
   section.app.m-background-gray-light.is-padding-top-3.is-padding-bottom-3
     .container
       .row
@@ -120,6 +130,7 @@ body
             img( src = 'images/google-play.png' alt = '' ).app__icon
             img( src = 'images/app-store.png' alt = '' ).app__icon
 
+  //- Sección de preguntas
   section.questions
     .container.is-padding-top-3.is-padding-bottom-3.is-table
       h2.subtitle-site.is-text-center.is-padding-bottom-1 Deja tus comentarios o dudas
@@ -127,7 +138,7 @@ body
         input( placeholder = 'Nombre' type = 'text' ).l-desktop-10.is-margin-bottom-1
         input( placeholder = 'Correo electrónico' type = 'email' ).l-desktop-10.is-margin-bottom-1
         textarea( cols = '50' placeholder = 'Escribe tus comentarios o dudas' rows = '6' ).l-desktop-10.is-margin-bottom-1
-        .is-clearfix
+        .is-clearfix.is-text-center.l-desktop-10
           button.btn.btn-primary Enviar
 
       .questions__description.l-desktop-4

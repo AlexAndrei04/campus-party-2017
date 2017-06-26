@@ -262,11 +262,6 @@ template {
 [hidden] {
   display: none; }
 
-.row {
-  display: inline-block;
-  margin-left: -.1em;
-  margin-right: -.1em; }
-
 @media all and (min-width: 300px) {
   .l-mobile-1 {
     float: left;
@@ -522,6 +517,15 @@ template {
   padding-right: 1em;
   width: 100%; }
 
+.row {
+  margin-left: -.5em;
+  margin-right: -.5em; }
+  .row::before, .row::after {
+    content: '';
+    display: table; }
+  .row::after {
+    clear: both; }
+
 .navigation {
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0)));
   background: -webkit-linear-gradient(top, white 0%, rgba(255, 255, 255, 0) 100%);
@@ -551,19 +555,21 @@ template {
 .brand {
   display: inline-block; }
 
-.footer__row {
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+.footer {
+  color: #fff; }
+  .footer__row {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
 
 .m-background-gray-light {
   background-color: #eff0f1; }
@@ -575,19 +581,30 @@ template {
   background-color: #1a58d1; }
 
 .btn {
+  border: 1px solid #1a58d1;
   border-radius: 25px;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: .1em;
   line-height: 1.5em;
-  padding: .8em 1.5em;
+  padding: .65em 2em;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
   .btn-primary {
     background-color: #1a58d1;
     color: #fff; }
+    .btn-primary:hover {
+      background-color: #fff;
+      color: #1a58d1; }
   .btn-secondary {
     background-color: #fff;
     color: #1a58d1; }
+    .btn-secondary:hover {
+      background-color: #1a58d1;
+      border-color: #fff;
+      color: #fff; }
 
 .slider {
   display: -webkit-box;
@@ -651,7 +668,15 @@ template {
   .publicity__subtitle {
     color: #1a58d1;
     font-size: 1.2em;
+    font-weight: 400;
     width: 11em; }
+  .publicity__play {
+    background-color: #1a58d1;
+    border-radius: 50%;
+    height: 7em;
+    padding: 2em 1.8em 2em 2.3em;
+    text-align: center;
+    width: 7em; }
 
 .questions {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.3)));
@@ -676,7 +701,7 @@ template {
 .app__icon {
   margin-right: 2.5em;
   margin-top: 2em;
-  width: 8em; }
+  width: 10em; }
 
 .is-mayus {
   text-transform: uppercase; }
@@ -757,6 +782,36 @@ template {
 
 .is-padding-bottom-5 {
   padding-bottom: 5em; }
+
+.is-padding-left-1 {
+  padding-left: 1em; }
+
+.is-padding-left-2 {
+  padding-left: 2em; }
+
+.is-padding-left-3 {
+  padding-left: 3em; }
+
+.is-padding-left-4 {
+  padding-left: 4em; }
+
+.is-padding-left-5 {
+  padding-left: 5em; }
+
+.is-padding-right-1 {
+  padding-right: 1em; }
+
+.is-padding-right-2 {
+  padding-right: 2em; }
+
+.is-padding-right-3 {
+  padding-right: 3em; }
+
+.is-padding-right-4 {
+  padding-right: 4em; }
+
+.is-padding-right-5 {
+  padding-right: 5em; }
 
 .is-not-margin {
   margin: 0; }

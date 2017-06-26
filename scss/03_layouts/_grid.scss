@@ -7,12 +7,6 @@
 
 $porcent: '%';
 
-.row {
-  display: inline-block;
-  margin-left: -.1em;
-  margin-right: -.1em;
-}
-
 @each $type, $size-screen in $s-size {
   @media all and (min-width: #{$size-screen}) {
     $h: (100 / 12);

@@ -40,7 +40,17 @@
   &__subtitle {
     color: $blue;
     font-size: 1.2em;
+    font-weight: 400;
     width: 11em;
+  }
+
+  &__play {
+    background-color: $blue;
+    border-radius: 50%;
+    height: 7em;
+    padding: 2em 1.8em 2em 2.3em;
+    text-align: center;
+    width: 7em;
   }
 }
 
@@ -67,6 +77,6 @@
   &__icon {
     margin-right: 2.5em;
     margin-top: 2em;
-    width: 8em;
+    width: 10em;
   }
 }

@@ -1,22 +1,22 @@
 // *
-// _grid.scss
+// _states.scss
 // Utilizado para ejemplo en Campus Party.
-// Hoja que contiene todas las variables de tamaños, colores y fuentes.
-// Desarrollado por la Dirección General Innovación y Gobierno Digital - SEPAF
+// Hoja que contiene los estados.
+// Alex Andrei Bastida Flores
 // *
 
-$porcent: '%';
+// $porcent: '%';
 
-@each $type, $size-screen in $s-size {
-  @media all and (min-width: #{$size-screen}) {
-    $h: (100 / 12);
-    @for $i from 1 through 12 {
-      .l-#{$type}-#{$i} {
-        float: left;
-        padding: .5em;
-        position: relative;
-        width: ($i * $h)#{$porcent};
-      }
-    }
-  }
-}
+// @each $type, $size-screen in $s-size {
+//   @media all and (min-width: #{$size-screen}) {
+//     $h: (100 / 12);
+//     @for $i from 1 through 12 {
+//       .l-#{$type}-#{$i} {
+//         float: left;
+//         padding: .5em;
+//         position: relative;
+//         width: ($i * $h)#{$porcent};
+//       }
+//     }
+//   }
+// }

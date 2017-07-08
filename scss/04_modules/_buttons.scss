@@ -1,40 +1,40 @@
 // *
-// _buttons.scss
+// _states.scss
 // Utilizado para ejemplo en Campus Party.
-// Hoja de estilos de los botones.
-// Desarrollado por la Dirección General Innovación y Gobierno Digital - SEPAF
+// Hoja que contiene los estados.
+// Alex Andrei Bastida Flores
 // *
 
-.btn {
-  border: 1px solid $blue;
-  border-radius: 25px;
-  font-weight: 400;
-  letter-spacing: .1em;
-  line-height: 1.5em;
-  padding: .65em 2em;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: all .3s;
+// .btn {
+//   border: 1px solid $blue;
+//   border-radius: 25px;
+//   font-weight: 400;
+//   letter-spacing: .1em;
+//   line-height: 1.5em;
+//   padding: .65em 2em;
+//   text-decoration: none;
+//   text-transform: uppercase;
+//   transition: all .3s;
 
-  &-primary {
-    background-color: $blue;
-    color: $white;
+//   &-primary {
+//     background-color: $blue;
+//     color: $white;
 
-    &:hover {
-      background-color: $white;
-      color: $blue;
-    }
-  }
+//     &:hover {
+//       background-color: $white;
+//       color: $blue;
+//     }
+//   }
 
-  &-secondary {
-    background-color: $white;
-    color: $blue;
+//   &-secondary {
+//     background-color: $white;
+//     color: $blue;
 
-    &:hover {
-      background-color: $blue;
-      border-color: $white;
-      color: $white;
-    }
-  }
-}
+//     &:hover {
+//       background-color: $blue;
+//       border-color: $white;
+//       color: $white;
+//     }
+//   }
+// }
 

@@ -50,6 +50,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # Prepros
-prepros-6.config
+*.config
 
 # End of https://www.gitignore.io/api/macos,windows
